@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+      <h3 className="rotate">Rotate Me</h3>
       <div className="canvas">
         <canvas className="canvas3d" id="canvas3d" ref={canvasRef} />
       </div>
