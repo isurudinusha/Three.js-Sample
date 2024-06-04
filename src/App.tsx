@@ -14,12 +14,10 @@ function App() {
 
   return (
     <>
-      <div className="rotate">Rotate Me</div>
-
       <div className="canvas">
-        <canvas id="canvas3d" ref={canvasRef} />
+        <canvas className="canvas3d" id="canvas3d" ref={canvasRef} />
       </div>
-      <h2>By Isuru Dinusha</h2>
+      <h4 className="credits">By Isuru Dinusha</h4>
     </>
   );
 }
